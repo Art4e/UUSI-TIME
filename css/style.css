@@ -1,0 +1,148 @@
+@font-face {
+	font-family: "Playfair Display Regular";
+	src: url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Playfair Display Regular";
+	src: url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Quicksand";
+	src: local("Quicksand Regular"), local("Quicksand-Regular"),
+		url("../fonts/Quicksand-Regular.woff2") format("woff2"),
+		url("../fonts/Quicksand-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: "Playfair Display Regular", serif;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #fff;
+	color: #252525;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+p {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 1.25em;
+	text-transform: initial;
+}
+
+section {
+	padding-top: 85px;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	min-width: 320px;
+}
+
+.btn {
+	max-width: 310px;
+    font-size: 25px;
+    letter-spacing: 0.3em;
+    line-height: 2em;
+    border: 3px solid #1b6951;
+    color: #252525;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 0 0.2em 0 0.5em;
+}
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
