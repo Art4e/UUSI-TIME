@@ -25,8 +25,24 @@
 	margin: auto;
 	max-width: 1087px;
 }
-
 .about__body {
+	display: flex;
+	justify-content: space-between;
+	border: 3px solid #454545;
+	padding: 4%;
+}
+.about__body_text {
+	flex: 0 0 50%;
+}
+.about__body_text p {
+	margin-bottom: 1.5em;
+	letter-spacing: 0.2em;
+}
+.about__body_img {
+	flex: 0 0 40%;
+}
+
+/* .about__body {
 	display: flex;
 	margin: 10px auto 22px;
 	justify-content: start;
@@ -55,7 +71,7 @@
 	margin-top: -28px;
 	margin-left: 1em;
 	margin-right: 2.8em;
-}
+} */
 
 .about__body_img img {
 	/* object-fit: cover; */

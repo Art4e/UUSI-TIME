@@ -364,6 +364,9 @@
 	.advantages__middle {
 		margin-top: 0;
 	}
+	.about__body {
+		display: block;
+	}
 }
 @media (max-width: 650px) {
 	.menu-down__nav.is-active {
