@@ -20,36 +20,57 @@
 // 	};
 // });
 
-$(document).ready(function() {
-	$('.menu-up__burger').click(function(event){
+$(document).ready(function () {
+	$('.menu-up__burger').click(function (event) {
 		$('.menu-down__nav').toggleClass('is-active')
 	});
-	$('.footer__burger').click(function(event){
+	$('.footer__burger').click(function (event) {
 		$('.footer__nav').toggleClass('is-active')
 	});
 
 
 	$('.blog').slick({
-		arrows:true,
-		slidesToShow:3,
-		responsive:[
+		arrows: true,
+		slidesToShow: 3,
+		responsive: [
 			{
 				breakpoint: 930,
-					settings: {
-						dots:false,
-						slidesToShow: 2,
-						arrows:true
-					}
+				settings: {
+					dots: false,
+					slidesToShow: 2,
+					arrows: true
+				}
 			},
 			{
 				breakpoint: 600,
-					settings: {
-						dots:false,
-						slidesToShow: 1,
-						arrows:true
-					}
+				settings: {
+					dots: false,
+					slidesToShow: 1,
+					arrows: true
+				}
 			}
 		]
-
+	});
+	$('.product__preview').slick({
+		arrows: true,
+		slidesToShow: 1,
+		responsive: [
+			{
+				breakpoint: 930,
+				settings: {
+					// dots:false,
+					// slidesToShow: 1,
+					// arrows:true
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					// dots:false,
+					// slidesToShow: 1,
+					// arrows:true
+				}
+			}
+		]
 	});
 });
