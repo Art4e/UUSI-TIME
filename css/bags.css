@@ -221,6 +221,46 @@
 .production__card-column > p {
 	padding: 0 1em 2em;
 }
+
+.feedback__form.production {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Quicksand;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+.feedback__text,
+.feedback__list-item {
+	margin-bottom: 1.5em;
+}
+.feedback__list-row {
+	display: flex;
+	justify-content: space-between;
+}
+.feedback__list-row li {
+	flex: 0 01 44%;
+}
+.feedback__list-input,
+.feedback__list-textarea {
+	width: 100%;
+	padding: 0 15px;
+	border: 1px solid #676666;
+	line-height: 3em;
+}
+.feedback__list-textarea {
+	min-height: 7em;
+}
+.feedback-name {
+}
+.feedback-email {
+}
+.feedback__list-textarea {
+}
+.feedback__search {
+}
+.feedback__btn {
+}
 .container.delivery {
 	max-width: 1120px;
 	padding-left: 15px;

@@ -182,9 +182,9 @@
 	.advantages__middle-first > p {
     padding-right: 20px;
 	}
-	.works__heading {
+	/* .works__heading {
 		margin-left: calc(0.0982 * 100vw - 75.429px);
-	}
+	} */
 	.footer__body {
 		padding-left: 20px;
 		padding-right: 20px;

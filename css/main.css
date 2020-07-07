@@ -74,11 +74,10 @@
 }
 
 .works__heading {
-	max-width: 360px;
+	/* max-width: 360px; */
 	font-size: 35px;
 	line-height: 1.4em;
-	color: #252525;
-	margin-left: 2.3em;
+	margin-left: -60%;
 	margin-bottom: -1.2em;
 }
 .works {
