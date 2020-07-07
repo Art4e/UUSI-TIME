@@ -79,7 +79,7 @@
 	/* height: 90%; */
 }
 
-.about__body_img::before {
+/* .about__body_img::before {
 	content: "";
 	position: absolute;
 	width: 418px;
@@ -87,7 +87,7 @@
 	left: 64px;
 	bottom: 220px;
 	background: #1b6951;
-}
+} */
 
 .works__heading {
 	/* max-width: 360px; */
