@@ -1,5 +1,5 @@
 footer {
-	background: #003D2A;
+	background: #003d2a;
 }
 .footer {
 	position: relative;
@@ -35,7 +35,6 @@ footer {
 }
 
 .footer__nav-menu {
-
 }
 
 .footer__nav-menu a {
@@ -45,7 +44,8 @@ footer {
 	color: #fff;
 }
 
-.list {}
+.list {
+}
 
 .footer__social {
 	margin-right: 105px;
@@ -54,19 +54,19 @@ footer {
 	min-width: 110px;
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 4px solid #BF2A2A;
+	border-bottom: 4px solid #bf2a2a;
 }
 
 .footer__social-f {
-		background: url(../img/icon_footer_f.svg) 50% 50%/auto no-repeat;
+	background: url(../img/icon/icon_footer_f.svg) 50% 50% / auto no-repeat;
 }
 
 .footer__social-inst {
-	background: url(../img/icon_footer_inst.svg) 50% 50%/auto no-repeat;
+	background: url(../img/icon/icon_footer_inst.svg) 50% 50% / auto no-repeat;
 }
 
 .footer__social-twit {
-	background: url(../img/icon_footer_twit.svg) 50% 50%/auto no-repeat;
+	background: url(../img/icon/icon_footer_twit.svg) 50% 50% / auto no-repeat;
 }
 
 .footer__social-f,
@@ -90,11 +90,11 @@ footer {
 }
 
 .footer__contacts.email {
-	background: url(../img/icon_footer_envelope.svg) no-repeat;
+	background: url(../img/icon/icon_footer_envelope.svg) no-repeat;
 }
 
 .footer__contacts.map {
-	background: url(../img/icon_footer_mark.svg) 7px 0 no-repeat;
+	background: url(../img/icon/icon_footer_mark.svg) 7px 0 no-repeat;
 	margin-top: 14px;
 	line-height: 2em;
 }
