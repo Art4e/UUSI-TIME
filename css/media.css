@@ -261,7 +261,6 @@
 	/* Бургер футера */
 	.footer__burger {
 		display: block;
-		/* background-color: transparent; */
 		position: relative;
 		width: 45px;
 		height: 31px;
@@ -311,9 +310,6 @@
 		transform: rotate(45deg);
 		top: 14px;
 	}
-	/* /* .header__menu-down {
-		padding-top: 0;
-	} */
 	.footer__social {
 		flex: 1 0 20%;
 	}
@@ -335,16 +331,10 @@
 		left: 240px;
 		display: block;
 		padding-top: 0.8em;
-		/* padding-left: 221px; */
-		/* opacity: 1;
-		transform: translateY(120px); */
 	}
 	.footer__nav.is-active .footer__nav-menu {
 		align-items: center;
 		align-content: space-between;
-		/* display: flex;
-		flex-wrap: wrap; */
-		/* justify-content: space-around; */
 	}
 	.footer__nav.is-active li {
 		line-height: 1.5em;

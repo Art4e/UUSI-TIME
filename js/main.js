@@ -22,10 +22,13 @@
 
 $(document).ready(function () {
 	$('.menu-up__burger').click(function (event) {
+		$(this).toggleClass('is-active');
 		$('.menu-down__nav').toggleClass('is-active')
 	});
 	$('.footer__burger').click(function (event) {
-		$('.footer__nav').toggleClass('is-active')
+		$(this).toggleClass('is-active');
+		$('.footer__nav').toggleClass('is-active');
+
 	});
 
 
