@@ -167,6 +167,7 @@ section > .advantages {
 }
 .advantages__middle-second img {
 	width: 100%;
+	z-index: 150;
 }
 
 .advantages__down {
@@ -175,20 +176,20 @@ section > .advantages {
 .advantages::before {
 	content: "";
 	position: absolute;
-	width: 68%;
-	height: 84%;
+	width: 116%;
+	height: 83%;
 	left: 34%;
-	top: -7%;
+	top: -6%;
 	border: 3px solid #1b6951;
 }
 
 .advantages::after {
 	content: "";
 	position: absolute;
-	width: 80%;
-	height: 87%;
+	width: 114%;
+	height: 84%;
 	right: 35%;
-	top: -13px;
+	bottom: 19%;
 	border: 3px solid #bf2a2a;
 }
 

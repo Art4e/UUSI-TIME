@@ -8,10 +8,12 @@
 }
 
 .header {
+	position: relative;
 	color: #252525;
 	background: url(../img/header__background.jpg) 50% 0%/100% auto no-repeat;
 	padding-bottom: 20px;
 	margin-bottom: 1em;
+	padding-top: 168px;
 }
 
 .logo {
@@ -20,9 +22,18 @@
 }
 
 .header__up {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	display: flex;
 	justify-content: space-between;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.9);
+	z-index: 150;
+}
+.header__up * {
+	position: relative;
+	z-index: 200;
 }
 
 .header__menu {
@@ -143,11 +154,12 @@
 
 .submenu__lists {
 	position: absolute;
-	top: 50px;
-	right: -25px;
+	/* top: 50px; */
+	margin-right: -40px;
+	padding-right: 40px;
 	z-index: 100;
 	width: 410px;
-	padding-top: 26px;
+	/* padding-top: 26px; */
 	visibility: hidden;
 	opacity: 0;
 	transition: 0.4s ease-in-out;
@@ -156,7 +168,7 @@
 .submenu__lists a {
 	display: block;
 	width: 100%;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.95);
 	padding: 10px 20px;
 }
 
