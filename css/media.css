@@ -42,23 +42,10 @@
 	.advantages p,
 	p {
 		font-size: calc(0.0045 * 100vw + 13.571px);
-		/* font-size: calc(0.0105 * 100vw + 5.5226px); */
 	}
 	.advantages__heading {
 		font-size: calc(0.0134 * 100vw + 5.7143px);
 	}
-
-	/* .advantages__middle-second::before {
-		height: 302%;
-		top: calc(0.1116 * 100% - 264.71%);
-	} */
-	/* .advantages__middle-second::after {
-		height: 302%;
-		top: -104%;
-	} */
-	/* .advantages__middle-second {
-		margin-left: calc(0.1765 * 100vw - 194.12px);
-	} */
 	.footer__social {
 		margin-right: calc(0.3088 * 100vw - 339.71px);
 	}
@@ -76,22 +63,16 @@
 		padding-bottom: 0;
 		padding-left: 0;
 	}
-	.header__menu-up {
-		/* justify-content: space-between */
-	}
-	/* .menu-up__basket {
-		margin-right: 0px;
-	} */
-	.header__menu-up *:not(:nth-child(1)) {
-		margin-left: 22px;
+	.header__menu-up > *:not(:nth-child(1)) {
+		margin-left: 10px;
 		margin-right: 0;
 	}
+
 	.menu-up__search > .search__btn {
 		margin-left: 0;
 	}
 	.menu-up__burger {
 		display: block;
-		/* background-color: transparent; */
 		top: -5px;
 		position: relative;
 		width: 45px;
@@ -333,16 +314,28 @@
 }
 
 @media (max-width: 768px) {
-	.menu-up__search input {
-		max-width: 180px;
+	.menu-up__search input,
+	.menu-up__cabinet a {
+		visibility: hidden;
+		width: 0;
+	}
+	.menu-up__search:hover input,
+	.menu-up__cabinet:hover a {
+		visibility: visible;
+		width: 100%;
+	}
+	.search__btn {
+		border-bottom-color: transparent;
+	}
+	.menu-up__search:hover .search__btn {
+		border-bottom-color: #1b6951;
 	}
 	.menu-up__cabinet {
-		width: 33px;
 		height: 50px;
 	}
-	.menu-up__cabinet-reg,
 	.menu-up__cabinet-login {
-		display: none;
+		/* padding-left: 8px; */
+		padding-right: 10px;
 	}
 	.works__heading {
 		margin: 0 auto;
@@ -353,9 +346,6 @@
 	.btn {
 		border-width: 3px;
 	}
-	/* .advantages__middle {
-		margin-top: 0;
-	} */
 	.advantages__middle-second > div {
 		max-width: 90%;
 	}
@@ -399,7 +389,6 @@
 	}
 	.advantages__up,
 	.advantages__down {
-		/* margin: 0 auto; */
 		width: 100%;
 	}
 	.advantages__middle {
@@ -423,7 +412,6 @@
 		padding-right: 10px;
 	}
 	.footer__nav {
-		/* flex: 0 0 70%; */
 		column-count: 1;
 		opacity: 0.8;
 	}
@@ -436,12 +424,15 @@
 	}
 }
 @media (max-width: 510px) {
-	.menu-up__search input {
-		display: none;
+	/* .menu-up__search input {
+		visibility: hidden;
 	}
-	.search__btn {
-		border-bottom: none;
-	}
+	.menu-up__search:hover input {
+		visibility: visible;
+		width: 80%;
+		margin-left: 15px;
+	} */
+
 	.menu-down__nav.is-active {
 		justify-content: flex-end;
 	}
@@ -478,9 +469,6 @@
 	.btn {
 		border-width: 2px;
 	}
-	/* .works__btn {
-    letter-spacing: 0.125em;
-	} */
 	.footer__logo {
 		order: 1;
 	}
