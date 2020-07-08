@@ -92,6 +92,12 @@
 }
 
 /* Страница Блог */
+.blogs__cards,
+.container.contacts-map,
+.container.production,
+.container.delivery {
+	padding-top: 168px;
+}
 .bag__card.blogs {
 	padding-top: 0;
 }
@@ -263,8 +269,8 @@
 }
 .container.delivery {
 	max-width: 1120px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .main-text.garantee li {
 	font-family: Quicksand, serif;

@@ -25,6 +25,10 @@
     top: calc(0.0991 * 100vw + 7.2857px);
     bottom: calc(0.0991 * 100vw + 7.2857px);
   }
+  .container.production,
+  .container.delivery {
+    padding-top: calc(0.1052 * 100vw + 16.504px);
+  }
   .bag__card-img.blogs > h2 {
     left: calc(0.2045 * 100vw - 50.426px);
     right: calc(0.2045 * 100vw - 50.426px);

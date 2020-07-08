@@ -178,7 +178,8 @@
 	.works__heading,
 	.blog__heading,
 	.about__heading,
-	.subscribe__heading {
+	.subscribe__heading,
+	.production__heading {
 		font-size: calc(0.009 * 100vw + 25.06px);
 	}
 	.footer__body {

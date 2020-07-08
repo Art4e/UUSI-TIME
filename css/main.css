@@ -273,13 +273,30 @@ section > .advantages {
 	max-width: 335px;
 	margin: auto;
 }
-.main-text,
-.main-text.garantee li,
+.main-text p,
+.main-text li,
 .subscribe__text {
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 1.5em;
 	letter-spacing: 0.2em;
-	padding: 20px 0;
+	padding-top: 1em;
+}
+.main-text ol {
+	padding-left: 30px;
+}
+.main-text li,
+.main-text ol li {
+	font-family: initial;
+}
+.main-text__img {
+	display: flex;
+	justify-content: space-around;
+	max-width: 1000px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.main-text__img img {
+	width: 100%;
 }
 
 .subscribe__social {
